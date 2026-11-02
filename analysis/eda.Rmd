@@ -1,0 +1,21 @@
+---
+title: "eda"
+author: "dario"
+date: "2026-11-02"
+output: html_document
+---
+
+# Data Import
+```{r setup, warning = FALSE, message = FALSE}
+library(tidyverse)
+library(here)
+```
+
+> We should read the cleaned dataset to perform a proper EDA!
+
+```{r}
+dengue <- readRDS(here("data", "processed", "infodengue_dengue.rds"))
+dim(dengue)
+glimpse(dengue)
+```
+

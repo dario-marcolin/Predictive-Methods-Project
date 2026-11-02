@@ -1,0 +1,16 @@
+# R / RStudio
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+ 
+# renv: si committa renv.lock, non la libreria
+renv/library/
+renv/staging/
+ 
+# Dati: troppo pesanti per GitHub, ognuno li rigenera con lo script
+data/raw/
+data/processed/
+ 
+# Sistema
+.DS_Store
